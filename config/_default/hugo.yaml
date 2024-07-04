@@ -1,0 +1,16 @@
+############################
+## CHANGE THESE
+############################
+
+baseURL: 'https://blog.cardellino.tech'
+title: BLOG
+
+############################
+## MISC
+############################
+
+enableEmoji: true
+disableKinds: ['taxonomy', 'term']
+languageCode: 'en-us'
+
+
