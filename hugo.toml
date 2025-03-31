@@ -1,6 +1,4 @@
-######################## default configuration ####################
-# The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "blog.cardellino.tech"
+baseURL = "/"
 # Title of your website (required).
 title = "Dominic Cardellino"
 # Your theme name
@@ -159,4 +157,6 @@ link = "js/modal.js"
 lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
+######################## default configuration ####################
+# The base URL of your site (required). This will be prepended to all relative URLs.
 lazy = true
