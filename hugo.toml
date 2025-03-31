@@ -1,6 +1,6 @@
 baseURL = "/"
 # Title of your website (required).
-title = "Dominic Cardellino"
+title = "Dominic Cardellino - DevOps Engineering | Platform Engineering | Site Reliability Engineering"
 # Your theme name
 theme = "hugoplate"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
