@@ -1,0 +1,6 @@
+baseurl = "https://blog.cardellino.tech/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Rocco - Tech Guy"
+
+theme = "anatole"

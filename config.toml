@@ -1,0 +1,55 @@
+
+
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+
+[params]
+description = "Welcome to my Tech Blog!\nMy name is Dominic Cardellino and on this blog I’ll share my story how I became a DevOps Engineer and the most relevant experiences.\nI love sport, technology and nature!"
+profilePicture = "images/picture.jpeg"
+Copyright = "cardellino.tech - All rights reserved."
+
+
+## Social links
+# use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/"
+
+[[params.socialIcons]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/dcardellino"
+
+[[params.socialIcons]]
+icon = "fa-brands fa-instagram"
+title = "Instagram"
+url = "https://www.instagram.com/rocco.chaos.tech/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:dominic@cardellino.tech"
+
+[menu]
+
+[[menu.main]]
+name = "HOME"
+identifier = "home"
+url = "/"
+weight = 100
+
+[[menu.main]]
+name = "ARCHIVE"
+weight = 200
+identifier = "archive"
+url = "/post/"
+
+[[menu.main]]
+name = "ABOUT"
+weight = 300
+identifier = "about"
+url = "/about/"
