@@ -1,6 +1,8 @@
-
-
-
+baseurl = "https://blog.cardellino.tech/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Rocco - Tech Guy"
+theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
@@ -11,6 +13,12 @@ description = "Welcome to my Tech Blog!\nMy name is Dominic Cardellino and on th
 profilePicture = "images/picture.jpeg"
 Copyright = "cardellino.tech - All rights reserved."
 
+contentratio = 0.6
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+readMore = true
 
 ## Social links
 # use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
@@ -43,7 +51,7 @@ url = "/"
 weight = 100
 
 [[menu.main]]
-name = "ARCHIVE"
+name = "Posts"
 weight = 200
 identifier = "archive"
 url = "/post/"
@@ -53,3 +61,22 @@ name = "ABOUT"
 weight = 300
 identifier = "about"
 url = "/about/"
+
+[[menu.main]]
+name = "PORTFOLIO"
+weight = 300
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[menu.footer]]
+name = "imprint"
+weight = 1
+identifier = "imprint"
+url = "/imprint/"
+
+[Languages]
+[Languages.en]
+title = "Rocco - Tech Guy"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
